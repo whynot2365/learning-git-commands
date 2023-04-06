@@ -28,7 +28,7 @@ An HTML document is divided into two parts: _Head part:_ The title and metadata 
 - The `<header>` tag 
 
 ```html
-<header>This is a header tag</header>
+<>This is a header tag</header>
 ```
 
  The `<header>` HTML tag represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, and other elements, etc.
