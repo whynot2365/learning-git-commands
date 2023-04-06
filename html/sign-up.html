@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN-UP FREE</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      div {
+        width: 500px;
+        clear: both;
+        margin: auto;
+      }
+
+      div input {
+        width: 100%;
+        clear: both;
+      }
+
+      button {
+        border-radius: 5px;
+        border: none;
+        padding: 10px 40px;
+        color: aliceblue;
+        background-color: rgb(38, 0, 255);
+        display: block;
+        margin: 0 auto;
+        position: static;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="topnav">
+        <a href="./index.html"><p>HOME</p></a>
+        <a href="./about.html"><p>ABOUT</p></a>
+        <a href="#"><p>SIGN-UP</p></a>
+        <a href="./contacts.html"><p>CONTACT</p></a>
+      </div>
+      <a href="#"
+        ><img
+          width="100px"
+          src="https://myproject.fr/images/myproject/landing/my-project-landing@2x.png"
+          alt="my-projectlogo"
+      /></a>
+    </header>
+    <main class="main">
+      <div>
+        <form action="" method="post" style="justify-content: center">
+          <label for="firstname">Firstname</label>
+          <input id="firstname" name="first_name" required />
+          <br />
+
+          <!--the br tag is know as line break-->
+
+          <label for="surname">Surname</label>
+          <input id="surname" name="sur_name" />
+          <!--the name attributes give specification requirment to detail entered here-->
+          <br />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+          <br />
+          <label for="username">Username</label>
+          <input id="username" name="username" />
+          <br />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+          <br />
+          <label for="">DOB</label> <input type="date" id="dateofbirth" />
+          <br />
+          <div class="selgen" style="text-align: center">
+            <label for="">select-gender</label>
+          </div>
+          <br />
+          <label for="male">male</label>
+          <input type="radio" id="male" name="gender" />
+          <br />
+          <label for="female">female</label>
+          <input type="radio" id="female" name="gender" />
+          <br />
+          <label for="country-names">country:</label>
+          <select name="country-names" id="country-names" autofocus>
+            <option disabled selected value="">
+              ---SELECT YOUR COUNTRY---
+            </option>
+
+            <optgroup label="AFRICA">
+              <option value="southafrica">SOUTH AFRICA</option>
+              <option value="nigeria">NIGERIA</option>
+              <option value="ghana">GHANA</option>
+              <option value="cameroon">CAMEROON</option>
+            </optgroup>
+
+            <option value="usa">USA</option>
+
+            <option value="greece">GREECE</option>
+
+            <option value="china">CHINA</option>
+
+            <option value="finland">FINLAND</option>
+          </select>
+          <br />
+          <fieldset>
+            <legend>country</legend>
+            <input
+              type="text"
+              style="border: none; outline-color: transparent"
+            />
+          </fieldset>
+          <br />
+          <button>submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
