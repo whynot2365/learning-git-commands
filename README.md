@@ -47,4 +47,38 @@ The `<p>` HTML element represents a paragraph. Paragraphs are usually represente
 ```
 The heading tag is used in HTML to define headings of a page. Headings are defined by `<hn>` , with `“n”` being a number between `1` and `6`, and determines which position a heading has in the hierarchy of the heading structure. Heading tags have a particularly important function within an HTML structure.
 
--
+## 05/04/2023
+# Git commands
+- command to initialize a project
+```git
+git init
+```
+- command to add folders
+> files can be added individually like this 
+```git
+git add filename
+```
+>Multiple files could also be added, like this
+(asterix* marks file type) 
+
+ ```git
+git add .\html\* (foldername) .html(every file saved as an html inselected .\html\. folder)
+```
+- command to configure name globally
+```git
+git config --global user.name "name"
+git config --global user.email "email"
+```
+- command to commit a project
+
+```git
+git commit -m "initialized project"
+```
+
+- command to view project 
+```git
+git log
+```
+- To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
