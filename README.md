@@ -47,6 +47,29 @@ The `<p>` HTML element represents a paragraph. Paragraphs are usually represente
 ```
 The heading tag is used in HTML to define headings of a page. Headings are defined by `<hn>` , with `“n”` being a number between `1` and `6`, and determines which position a heading has in the hierarchy of the heading structure. Heading tags have a particularly important function within an HTML structure.
 
+- Hexadecimal colors in css
+
+Hex color codes start with a pound sign or hashtag (#) and are followed by six letters and/or numbers. The first two letters/numbers refer to red, the next two refer to green, and the last two refer to blue. The color values are defined in values between 00 and FF (instead of from 0 to 255 in RGB).
+```html
+White	#FFFFFF	rgb(255, 255, 255)
+Silver	#C0C0C0	rgb(192, 192, 192)
+Gray	#808080	rgb(128, 128, 128)
+Black	#000000	rgb(0, 0, 0)
+Red	#FF0000	rgb(255, 0, 0)
+Maroon	#800000	rgb(128, 0, 0)
+Yellow	#FFFF00	rgb(255, 255, 0)
+Olive	#808000	rgb(128, 128, 0)
+Lime	#00FF00	rgb(0, 255, 0)
+Green	#008000	rgb(0, 128, 0)
+Aqua	#00FFFF	rgb(0, 255, 255)
+Teal	#008080	rgb(0, 128, 128)
+Blue	#0000FF	rgb(0, 0, 255)
+Navy	#000080	rgb(0, 0, 128)
+Fuchsia	#FF00FF	rgb(255, 0, 255)
+Purple	#800080	rgb(128, 0, 128)
+```
+
+
 ## 05/04/2023
 # Git commands
 - command to initialize a project

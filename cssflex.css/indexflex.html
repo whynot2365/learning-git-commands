@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css-flex</title>
+    <style>
+      /* when alligning on the horizontal axis use justify content then on the vertical axis use allign items */
+      main{
+        height:300px ;
+      }
+      section {
+        /* display: inline-block; */
+        /* border:2px groove red;   */
+        width: 200px;
+        height: 200px;
+      }
+      section:nth-child(4) {
+        background-color: black;
+      }
+      section:nth-child(5) {
+        background-color: silver;
+      }
+      section:nth-child(1) {
+        background-color: blue;
+      }
+      section:nth-child(2) {
+        background-color: red;
+      }
+      section:nth-child(3) {
+        background-color: yellow;
+      }
+      main:nth-child(1) {
+        align-items: flex-end;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row-reverse;
+        border: 2px groove green;
+      }
+      main:nth-child(2) {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row-reverse;
+        border: 2px groove green;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+  </body>
+</html>
