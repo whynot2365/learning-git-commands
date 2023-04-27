@@ -6,14 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css-flex</title>
     <style>
+      nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      header{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #e4e4e4;
+      }
       /* when alligning on the horizontal axis use justify content then on the vertical axis use allign items */
-      main{
-        height:300px ;
+      main {
+        display: grid;
+        /* grid-template-columns:1fr 1fr 1fr; */
+        grid-template-columns: minmax(250px, 500px) 1fr 1fr; 
+        /* row-gap: 20px;
+        column-gap: 20px; */
+        gap: 20px;
+         height:0px;
+        /* flex-wrap: wrap; */
       }
       section {
         /* display: inline-block; */
         /* border:2px groove red;   */
-        width: 200px;
+        /* width: 100%; */
         height: 200px;
       }
       section:nth-child(4) {
@@ -23,30 +42,37 @@
         background-color: silver;
       }
       section:nth-child(1) {
+       
         background-color: blue;
       }
       section:nth-child(2) {
+       
+        align-self: center;
         background-color: red;
       }
       section:nth-child(3) {
         background-color: yellow;
       }
       main:nth-child(1) {
-        align-items: flex-end;
         justify-content: space-around;
-        display: flex;
-        flex-direction: row-reverse;
+       
         border: 2px groove green;
       }
       main:nth-child(2) {
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: row-reverse;
+        
         border: 2px groove green;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h2>LOGO</h2>
+      <nav>
+        <p>home</p>
+        <p>about</p>
+        <p>contact</p>
+      </nav>
+    </header>
     <main>
       <section></section>
       <section></section>
@@ -55,9 +81,9 @@
       <section></section>
     </main>
     <main>
+       <section></section>
       <section></section>
-      <section></section>
-      <section></section>
+      <section></section> 
       <section></section>
       <section></section>
     </main>

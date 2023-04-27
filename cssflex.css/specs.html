@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        button{
+            display: block;
+            margin: auto;
+            color: azure;
+            background-color: black;
+            height:50px ;
+            width: 200px;
+            border-radius: 10px;
+            
+        }
+        button:hover{
+            color: black;
+            background-color: azure;
+        }
+        /* select input tag specificity with this [type=text] etc */
+        input[type=text] {
+            border: 3px  solid red;
+        }
+      .para {
+        color: darkmagenta;
+      }
+      #par {
+        /* opacity: 5; */
+        /* visibility: hidden; */
+        display: none;
+        color: darkgreen;
+      }
+      .sec
+       p {
+        color: rgb(235, 15, 15);
+        color: darkblue;
+      }
+      .para {
+        color: black;
+      }
+      p {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sec">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+      <p class="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+    </section>
+    <section>
+        <input type="text">
+        <input type="date">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+      <p class="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+      <p id="par">
+        abc Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea
+        pariatur esse laborum doloremque eum officiis quos, ab reiciendis
+        deleniti ipsum nam, laboriosam neque quod quis velit ullam iusto
+        impedit?
+      </p>
+      <!-- to move button around without seperating it from the section give it a display of block and margin of auto -->
+      <button>Finish</button>
+    </section>
+  </body>
+</html>
