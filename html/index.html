@@ -15,28 +15,30 @@
         color: cornflowerblue;
         display: block;
       }
-      .trx {
-        /* border: ; */
-        border-width: 2px;
-        border-color: darkmagenta;
-        border-style: groove;
-        padding: 20px 10px;
-      }
-      .div1,
-      .div2 {
-        border: 2px groove red;
-      }
-      .div2 {
-        margin: 10px;
-      }
+
+  
+
       button {
+        transition-property: all;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in;
         border-radius: 5px;
         border: none;
         padding: 10px 40px;
-        color: aliceblue;
-        background-color: chartreuse;
-        display: block;
-        margin: 0 auto;
+        display: block;        
+        margin-top: 100px;
+        margin-left: 570px;
+        color: azure;
+        background-color: black;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: static;
+      }
+      button:hover {
+        transform: scale(1.1);
+        color: black;
+        background-color: azure;
       }
       /* .topnav {
   background-color: #333;
@@ -72,12 +74,18 @@
       <a href="#"
         ><img
           width="100px"
-          src="https://myproject.fr/images/myproject/landing/my-project-landing@2x.png"
+          src="/kindpng_2270137.png"
           alt="my-project logo"
+          style="width: 100px;
+    height: 22.594;
+    border-left-width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+"
       /></a>
     </header>
     <main class="main">
-      <section>
+      <section class="article">
         <article>
           <h2 class="tav" style="text-align: center">Definition and Usage</h2>
           <p>
@@ -93,37 +101,15 @@
           >
         </article>
       </section>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>NAME</th>
-            <th>S/N</th>
-            <th>CONTACT INFO</th>
-            <th>ADDRESS</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Emmanuel</td>
-            <td>2</td>
-            <td>09012345678</td>
-            <td>no 9 mahatma ghandi</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="div1">
-        <div class="div2">
-          <p class="trx">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            inventore minus qui repellendus, id aliquam aut labore repudiandae
-            similique! Laboriosam facere obcaecati accusantium maxime tempore
-            omnis corporis soluta magnam architecto.
-          </p>
+      <section>
+        <div class="divspace"></div>
+        <div class="divbox">
+          <div class="divbox1"></div>
+          <div class="divbox2"></div>
+          <div class="divbox3"></div>
         </div>
-      </div>
+      </section>
       <button>Submit</button>
     </main>
   </body>
 </html>
-
-
