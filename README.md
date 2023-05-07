@@ -41,6 +41,20 @@ An HTML document is divided into two parts: _Head part:_ The title and metadata 
 ```
 The `<p>` HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields
 
+- Table tag
+```html
+<table></table> this is a table tag
+<tr></tr> this is a table rule tag
+<th></th> this is a table header tag 
+<tbody> this tag entail the content of the table
+<tr></tr>this is a table rule tag
+<td></td>
+  ```
+Table tag in html is used to classify data into columns and row hence producing a table 
+
+
+
+
 - The Heading tag 
 ```html
 <h1>this is a h1 (The largest heading tag) tag</h1>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .about-button{
+        font-size: 20px; display: block;
+            width: 116px;
+
+        }
+      .about-pagetop {
+        width: 77px;
+      }
+      .topnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: bisque;
+        overflow: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="./about.html" class="about-pagetop" title="About">
+          <i
+            id="fa fa-logo ws-text-green ws-hover-text-green"
+            style="position: relative; font-size: 42px !important"
+          ></i>
+        </a>
+
+        <a
+          class="about-button"
+          href="./about.html"
+          title="About-Us"
+          >Tutorials
+          <i
+            class="fa fa-caret-down"
+           
+          ></i
+          ><i class="fa fa-caret-up" style="display: none"></i
+        ></a>
+        <a
+          class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24"
+          href="javascript:void(0)"
+          onclick="w3_open_nav('references')"
+          id="navbtn_references"
+          title="References"
+          style="width: 132px"
+          >References
+          <i
+            class="fa fa-caret-down"
+            style="font-size: 20px; display: inline"
+          ></i
+          ><i class="fa fa-caret-up" style="display: none"></i
+        ></a>
+        <a
+          class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24 ws-hide-800"
+          href="javascript:void(0)"
+          onclick="w3_open_nav('exercises')"
+          id="navbtn_exercises"
+          title="Exercises"
+          style="width: 118px"
+          >Exercises
+          <i
+            class="fa fa-caret-down"
+            style="font-size: 20px; display: inline"
+          ></i
+          ><i class="fa fa-caret-up" style="display: none"></i
+        ></a>
+
+        <a
+          class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex ws-hide-1300"
+          href="https://www.w3schools.com/bootcamp/index.php"
+          title="Web Development Bootcamp"
+          >Bootcamp</a
+        >
+
+        <a
+          class="w3-bar-item w3-button bar-item-hover w3-padding-24"
+          href="javascript:void(0)"
+          onclick="w3_open()"
+          id="navbtn_menu"
+          title="Menu"
+          style="width: 93px"
+          >Menu <i class="fa fa-caret-down"></i
+          ><i class="fa fa-caret-up" style="display: none"></i
+        ></a>
+
+        <div
+          id="loginactioncontainer"
+          class="w3-right w3-padding-16"
+          style="margin-left: 1px; width: 55px"
+        >
+          <div id="mypagediv" style="display: none"></div>
+          <!-- <button id="w3loginbtn" style="border:none;display:none;cursor:pointer" class="login w3-right w3-hover-greener" onclick='w3_open_nav("login")'>LOG IN</button>-->
+        </div>
+
+        <div class="w3-right w3-padding-16">
+          <a
+            id="spacesbtn_topnav"
+            style="
+              display: none;
+              width: 93px;
+              border-radius: 25px;
+              margin-right: 20px;
+            "
+            class="w3-bar-item w3-button w3-right w3x-hide-small barex ws-green ws-hover-green"
+            href="https://spaces.w3schools.com/"
+            title="Go to Your Space"
+            >Spaces</a>
+          <a
+            id="signupbtn_topnav"
+            class="w3-bar-item w3-button w3-right barex ws-green ws-hover-green"
+            style="
+              width: 93px;
+              border-radius: 25px;
+              margin-right: 20px;
+              position: relative;
+              z-index: 5;
+            "
+            href="https://www.w3schools.com/signup/index.html"
+            title="Sign Up to Improve Your Learning Experience"
+            >Sign Up</a
+          >
+          <a
+            class="w3-bar-item w3-button w3-right ws-hide-1066 w3-hide-small barex ws-yellow ws-hover-yellow gt-btn-top-spaces"
+            style="width: 150px; border-radius: 25px; margin-right: 15px"
+            href="https://www.w3schools.com/spaces/index.html"
+            title="Get Your Own Website With W3Schools Spaces"
+            >Create Website</a
+          >
+          <a
+            class="w3-bar-item w3-button w3-right ws-hide-900 w3-hide-small barex ws-pink ws-hover-pink gt-btn-top-cert"
+            style="border-radius: 25px; margin-right: 15px"
+            href="https://shop.w3schools.com/collections/course-catalog"
+            target="_blank"
+            id="cert_navbtn"
+            title="Courses"
+            >Get Certified</a
+          >
+          <a
+            class="w3-bar-item w3-button w3-right w3-hover-dark-grey ws-hide-900 w3-hide-small ws-hide-1160 barex topnavmain_pro gt-btn-top-pro"
+            style="border-radius: 25px; margin-right: 15px"
+            href="https://www.w3schools.com/pro/index.php"
+            title="Go Pro to Improve Your Learning Experience"
+            >Pro</a
+          >
+          <!--    <a class="ws-light-green ws-hover-green w3-bar-item w3-button w3-right w3-hide-small ws-hide-1300 barex" style="border-radius: 25px; margin-right: 15px;" href="/signup/index.html" title="Sign Up to Improve Your Learning Experience">Sign Up</a>    -->
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
